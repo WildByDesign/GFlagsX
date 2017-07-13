@@ -8,8 +8,8 @@
         xmlns:local="clr-namespace:GflagsX"
         mc:Ignorable="d"
         Title="{Binding Title}" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize"
-                   BorderBrush="{DynamicResource AccentColorBrush}" BorderThickness="1" TitleCaps="False"
-                   Icon="/icons/flag.ico" MaxHeight="{DynamicResource {x:Static SystemParameters.MaximizedPrimaryScreenHeightKey}}">
+                   BorderBrush="#252525" WindowStartupLocation="CenterScreen" BorderThickness="14,0,0,0" TitleCaps="False" TitleAlignment="Left" IsWindowDraggable="True" NonActiveWindowTitleBrush="#252525" NonActiveBorderBrush="#252525" ShowTitleBar="True" WindowTitleBrush="#252525"
+                   MaxHeight="{DynamicResource {x:Static SystemParameters.MaximizedPrimaryScreenHeightKey}}">
     <view:MainView>
         
     </view:MainView>
